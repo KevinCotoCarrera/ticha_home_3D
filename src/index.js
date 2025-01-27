@@ -1,6 +1,5 @@
 import { createRoot } from 'react-dom/client'
 import './styles.css'
-import { Logo } from '@pmndrs/branding'
 import { App } from './App'
 
 /*
@@ -15,13 +14,11 @@ function Root() {
     <>
       <App />
       <div style={{ position: 'absolute', pointerEvents: 'none', top: 0, left: 0, width: '100vw', height: '100vh' }}>
-        <a href="https://pmnd.rs/" style={{ position: 'absolute', bottom: 40, left: 90, fontSize: '13px' }}>
-          pmnd.rs
+        <a href="https://www.instagram.com/ticha_home" style={{ position: 'absolute', bottom: 40, left: 50, fontSize: '13px' }}>
           <br />
-          dev collective
+          made by Penguin Kanticha
         </a>
-        <div style={{ position: 'absolute', bottom: 40, right: 40, fontSize: '13px' }}>18/01/2024</div>
-        <Logo style={{ position: 'absolute', bottom: 40, left: 40, width: 30 }} />
+        <img src='logo.svg' style={{ position: 'absolute', bottom: 40, left: 40, width: 200, marginBottom: 4 }} />
         <a style={{ position: 'absolute', top: 40, left: 40, fontSize: '13px' }} href="#">
           scroll up/down ...
         </a>
